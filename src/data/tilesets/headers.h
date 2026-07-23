@@ -746,3 +746,14 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
+
+const struct Tileset gTileset_GeneralSeaBlue =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PorytilesManaged_GeneralSeaBlue,
+    .palettes = gTilesetPalettes_PorytilesManaged_GeneralSeaBlue,
+    .metatiles = gMetatiles_PorytilesManaged_GeneralSeaBlue,
+    .metatileAttributes = gMetatileAttributes_PorytilesManaged_GeneralSeaBlue,
+    .callback = InitTilesetAnim_PorytilesManaged_GeneralSeaBlue,
+};

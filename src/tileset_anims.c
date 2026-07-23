@@ -330,3 +330,6 @@ void InitTilesetAnim_CeladonGym(void)
     sSecondaryTilesetAnimCounterMax = 256;
     sSecondaryTilesetAnimCallback = TilesetAnim_CeladonGym;
 }
+
+// [Porytiles] Auto-generated include. Do not remove.
+#include "porytiles_generated/tilesets/general_sea_blue/generated_anim_code.h"
